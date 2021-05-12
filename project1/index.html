@@ -1,0 +1,123 @@
+<!doctype HTML>
+<html>
+<body>
+<form action="http://127.0.0.1:5000/result" method="POST">
+    <label>10th %</label>
+      <input type="percentage" name="percent" required/>
+      <br></br>
+      <label>Interests</label>
+      <br></br>
+      <input type="checkbox" name="checkbox[]" value="Armed Forces" checked="true"/>
+      <label>Armed Forces</label>
+      <input type="checkbox" name="checkbox[]" value="Accounting" />
+      <label>Accounting</label>
+      <input type="checkbox" name="checkbox[]" value="Banking" />
+      <label>Banking</label>
+      <input type="checkbox" name="checkbox[]" value="Chartered Accountant" />
+      <label>Chartered Accountant</label>
+      <input type="checkbox" name="checkbox[]" value="Engineering" />
+      <label>Engineering</label>
+      <input type="checkbox" name="checkbox[]" value="Mass Communication" />
+      <label>Mass Communication</label>
+      <input type="checkbox" name="checkbox[]" value="Designing" />
+      <label>Designing</label>
+      <input type="checkbox" name="checkbox[]" value="Arts" />
+      <label>Arts</label>
+      <input type="checkbox" name="checkbox[]" value="Management" />
+      <label>Management</label>
+      <input type="checkbox" name="checkbox[]" value="Medical" />
+      <label>Medical</label>
+      <input type="checkbox" name="checkbox[]" value="Research" />
+      <label>Research</label>
+      <input type="checkbox" name="checkbox[]" value="Law" />
+      <label>Law</label>
+      <input type="checkbox" name="checkbox[]" value="Pilot" />
+      <label>Pilot</label>
+      <input type="checkbox" name="checkbox[]" value="Air host" />
+      <label>Air host/hostess</label>
+      <br></br>
+      <label>Mother's Occupations</label>
+      <select name="motheroccu">
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Business">Business</option>
+                    <option value="Defence Service">Defence Service</option>
+                    <option value="Government Servant">Government Servant</option>
+                    <option value="Labour">Labour</option>
+                    <option value="Scavangers">Scavangers</option>
+                    <option value="Service">Service</option>
+                    <option value="Tanners and Flayers">Tanners and Flayers</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Others">Others</option>
+                    </select>
+                    <br></br>
+      <label>Father's Occupations</label>
+      <select name="fatheroccu">
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Business">Business</option>
+                    <option value="Defence Service">Defence Service</option>
+                    <option value="Government Servant">Government Servant</option>
+                    <option value="Labour">Labour</option>
+                    <option value="Scavangers">Scavangers</option>
+                    <option value="Service">Service</option>
+                    <option value="Tanners and Flayers">Tanners and Flayers</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Others">Others</option>
+                    </select>
+                    <br></br>
+
+      <label>Do you participate in co-curricular activities?</label>
+      <select name="extraa">
+        <option value="yesnotgoodinactivities">Yes, because I like participating but I am not so good in such activities</option>
+        <option value="yesonlycertificate">Yes and I participate only for certificates</option>
+        <option value="yesgoodactivities">Yes, because I like participating and I am good at such activities and sometimes I win also</option>
+        <option value="no">No</option>
+      </select>
+      <br></br>
+      <label>If you participate in co-curricular activities, then what kind of activities do you participate in ? Ans No if you don't participate</label>
+      <input type="text" name="extraactivities" required/>
+      <br></br>
+      <label>Do you do any extra courses ? </label>
+      <select name="extrac">
+        <option value="yes">Yes</option>
+        <option values="no">No</option>
+      </select>
+      <br></br>
+      <label>If you like to do any extra courses mention the type of courses you do or have done. If you don't like to do any extra courses answer as No
+</label>
+      <input type="text" name="extracourses" required/>
+      <br></br>
+      <label>Do you have family support for your career or studies ?</label>
+      <select name="famsupport">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <br></br>
+      <label>Financial condition </label>
+      <select name="financial">
+        <option value="Poor">Poor ( Below 100000)</option>
+        <option value="Medium">Medium (Between 100000 and 600000)</option>
+        <option value="Very Good">Very Good (Above 600000)</option>
+      </select>
+      <br></br>
+      <label>Hobbies</label>
+      <input type="text" name="hobbies" required/>
+      <br></br>
+      <label>Health condition </label>
+      <select name="health">
+        <option value="often fall sick">often fall sick</option>
+        <option value="good but weak physically">good but weak physically</option>
+        <option value="good and strong physically">good and strong physically</option>
+      </select>
+      <br></br>
+      <label>Gender</label>
+      <select name="gender">
+      <option value="M">Male</option>
+      <option value="F">Female</option>
+      </select><br/>
+
+      <input type="submit" value="Submit"  ></input>
+
+
+
+    </form>
+  </body></html>
